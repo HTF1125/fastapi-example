@@ -1,4 +1,6 @@
-from fastapi import FastAPI, Depends, CORSMiddleware
+from fastapi import FastAPI, Depends
+from fastapi.middleware.cors import CORSMiddleware
+
 from .router import post, user, auth, vote
 from . import database, models
 from sqlalchemy.orm import Session
