@@ -27,3 +27,4 @@ app.include_router(vote.router)
 def delete_all_tables(db: Session =Depends(database.get_db)):
     models.Base.metadata.drop_all(bind=database.engine)
     return "Dropped all tables"
+
