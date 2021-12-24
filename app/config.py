@@ -1,7 +1,6 @@
 from pydantic import BaseSettings
 
 class Settings(BaseSettings):
-    secret_key = "sdafdsafsafsdlkjfklksdjfaslkdjf"
     database_password : str = "1125"
     database_username : str = "postgres"
     database_hostname : str = "localhost"
