@@ -81,3 +81,13 @@
 # Install requirements: pip install -r requirements.txt
 # Initialize Git: git init
 # Add all files to git: git add -all
+# Login to Github: git config --global user.email "email" & git config --global user.name "name" 
+# Git commit: git commit -m "initial commit"
+# Git Set Branch: git branch -m main (setting the branch to be main)
+# Git Remote branch --> git remote add origin git@github.com:HTF1125/fastapi-example.git
+# Git Push --> git push -u origin main
+
+
+# Heroku
+# Heroku login
+# Heroku --create "app name" ! Globaly unique.
